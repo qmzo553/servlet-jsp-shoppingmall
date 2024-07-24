@@ -1,0 +1,13 @@
+table {
+    width: 800px;
+    border-collapse: collapse;
+    border:1px #ccc solid;
+}
+table tr>td,th{
+    padding:5px;
+    border:1px #ccc solid;
+}
+.pagination a {
+    margin: 0 3px;       /* 버튼 사이의 간격 조정 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+}
